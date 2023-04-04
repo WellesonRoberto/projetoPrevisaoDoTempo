@@ -1,0 +1,88 @@
+*{
+    margin: 0; /* Tira a margem */
+    padding: 0; /* define uma a distância entre o conteúdo de um elemento e suas bordas. */
+    box-sizing: border-box; /* O box-sizing com o valor border-box faz com que o navegador não calcule a dimensão de um elemento 
+    somando bordas e margens com altura e largura. Com content-box , ao definir width: 100px , o interior (conteúdo) do elemento 
+    terá 100px, mas por termos padding-left: 50px , o tamanho total do elemento será 150px. */
+    font-family: 'Open Sans', sans-serif; /* Define a fonte do texto */
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* vh = altura */
+    width: 100vw; /* vw = largura */
+    background-image: url(https://images.unsplash.com/photo-1438786657495-640937046d18?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY3NTM4MjkxNA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600Vhttps://images.unsplash.com/photo-1438786657495-640937046d18?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY3NTM4MjkxNA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600);
+    /* Coloca uma imagem da web */
+}
+
+.caixa-maior{
+    background-color: black; /* Define a cor */
+    width: 95%; /* Define a largura */
+    max-width: 420px; /* Define a largura máxima */
+    opacity: 0.8 ; /*Transparência do item */
+    padding: 20px;
+    border-radius: 25px; /* Arredonda as bordas */
+}
+input{
+    border: none; /* borda do elemento. none = tirar */
+    outline: none; /* borda quando seleciona o elemento */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 24px; /* Arredonda as bordas */
+    font-size: 20px;
+    background-color: #7c7c7c2b; 
+    color: white;
+    width: calc(100%-100px);
+
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    float: right;
+    cursor: pointer; /* Adiciona a "mãozinha" no mouse */
+}
+button:hover{ /* Evento de passar o mouse em cima do item e mudar a cor */
+    background-color: #7c7c7c6b;
+    
+}
+
+.caixa-media{
+    margin-top: 30px;
+
+}
+
+.caixa-menor{
+    display: flex;
+    margin-top: 30px;
+    align-items: center; /* alinhar inter: centro */
+}
+
+.lupa {
+    height: 20px; 
+}
+
+h2{
+    color: white;
+    font-size: 28px; /* Tamanho do texto */
+}
+    
+
+    .temp{
+        color: white;
+        margin-top: 30px;
+        }
+
+    .descricao{
+        color: white;
+        margin-left: 20px;
+        text-transform: capitalize; /* Deixa a primeira letra maiuscula*/
+    }
+
+    .umid{
+        color: white;
+        margin-top: 30px;
+    }
